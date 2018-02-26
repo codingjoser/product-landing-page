@@ -1,0 +1,181 @@
+body {
+  font-family: 'BioRhyme Expanded', serif;
+  padding-top: 225px; /*to fix fixed nav bar	*/
+  margin: 0 auto; /*to fix margin auto on left side*/
+}
+
+
+#header-img {
+  width: 50px; 
+  height: 30px; 
+}
+
+#home {
+  font-size: 2em; 
+  font-family: 'Rammetto One', cursive;
+}
+
+/* container at top*/
+#nav-bar {
+	background-color: #fff;
+	margin: .5em 0;
+  text-align: center; 
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#nav-bar a {
+  color: #000; 
+  text-decoration: none;
+}
+
+#box-1 {
+  font-size: .75em; 
+  padding: 1em 0; 
+}
+
+#box-2 {
+  font-size: .75em;  
+  padding: .25em 0; 
+}
+
+.nav-link { 
+  display: block; 
+  padding: 1em 0; 
+}
+
+#box-3 {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 2em 0 1em 0;
+}
+
+#box-3 form{
+  display: flex; 
+  flex-direction: column; 
+}
+
+#email { 
+	width: 200px; 
+}
+
+#submit { 
+	margin: 1em auto;
+	width: 100px; 
+}
+
+#box-4 {
+	display: flex;
+	flex-direction: column;
+	font-size: .6em;
+	align-items: center; 
+	padding: 1em 3em;
+}
+
+#box-5 {
+  display:flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 2em 0; 
+}
+
+#box-6 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#box-7, #box-8, #box-9 {
+	align-items: center; 
+	border: 2px solid black;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	font-size: .75em;
+	margin: 1em auto; 
+	padding: 1em 1em;
+	width: 300px;
+}
+
+.price-button {
+	background-color: #fef;
+	text-transform: uppercase;
+	height: 40px; 
+	width: 100px;
+}
+
+
+@media(min-width: 600px) {
+  body { 
+    padding-top: 66px; /*to fix fixed nav bar	*/
+  }
+  
+  #nav-bar {
+    display:flex; 
+  }
+  
+  #box-1 {
+    width: 60%; 
+  }
+
+  #box-2 { 
+    padding: 0 auto;
+    width: 40%; 
+  }
+
+  .nav-link { 
+    display: block; 
+    padding: 0 0; 
+  }
+
+  
+}
+
+
+@media(min-width:750px) {
+  body {
+    padding-top: 66px; /*to fix fixed nav bar	*/
+  }
+  
+  #nav-bar {
+    display:flex; 
+  }
+  
+  #box-1 {
+    display: flex; 
+    justify-content: flex-start; 
+    padding: 0 0 0 3em; 
+    width: 50%; 
+  }
+  
+
+  #box-2 {
+    align-items: center;   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em; 
+    width: 50%; 
+  }
+
+
+	#box-6 {
+		flex-direction: row; 
+	}
+ 
+
+	#box-7, #box-8, #box-9 {
+		display: flex;
+		flex-direction: column;
+		height: 270px;
+		width: 200px;
+	}
+
+}
+
+
